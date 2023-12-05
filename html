@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website</title>
-
+    <title>Form</title>
 </head>
 <body>
+    <fieldset style="width:40%; background-color: aquamarine; text-align: center">
+    <form action="index.html" >
+        <label for="Name">Name:</label>
+        <input type="text" placeholder="Enter your name" required size="28">
+        <br>
+        <label for="Age">Age:</label>
+        <input type="number" placeholder="Enter your age" required size="28" >
+        <br>
+        <label for="Email" style="display: block;">Email:</label>
+        <input type="email" placeholder=" your e-mail adress" size="28">
+        <br>
+        <label for="state"> State:</label>
+        <select>
+            <option value="Delhi">Delhi</option>
+            <option value="benguluru">benguluru</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <br>
+        <label for="comments">comments:</label>
+    <textarea name="comments" id="" cols="30" rows="10" style="text-align: center;">Start from here!!</textarea>
+    <br>
+    <input type="submit" style="background-color: cadetblue; transform: scale(1.5);">
+    <input type="reset">
+    </form>
+    </fieldset>
     
 </body>
-
-
-
 </html>
